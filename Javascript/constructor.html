@@ -1,0 +1,17 @@
+<html>
+    <body>
+<p id="test"></p>
+
+        <script>
+            //constructor function for Test objects
+            function Test(first,second,last){
+                this.first=first;//current value : this is an operator : instatiate
+                this.second=second;//local value
+            }
+
+            const obj1= new Test("1","2","3");
+
+            document.getElementById("test").innerHTML=obj1.first;
+        </script>
+    </body>
+</html>
